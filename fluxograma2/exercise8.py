@@ -10,4 +10,18 @@ items = int(input())
 print("How much did the purchase originally cost?")
 value = float(input())
 
+if value <= 100:
+    discount = value * 0.95
+
+elif value > 100 and value <= 400:
+    discount = value * 0.90
+
+elif value > 400:
+    discount = value * 0.87
+
+purchase = (items * 1.5) + discount
+
+print(f"Your purchase with the discount is {discount:.2f} reais, but with shipping taxes will be {purchase:.2f} reais.")
+
+
 
