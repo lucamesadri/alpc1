@@ -16,11 +16,11 @@ gasoline = int(input())
 gasolinePerKm = (final - inicial) / gasoline
 
 if gasolinePerKm >= 10 and gasolinePerKm <= 16:
-    print(f"You are ok! Your consuming is {gasolinePerKm} and is normal.")
+    print(f"You are ok! Your consuming is {gasolinePerKm} and it is normal.")
 
 else:
     if gasolinePerKm > 16:
-        print(f"You are not ok! Your consuming is {gasolinePerKm} and is anormal.")
+        print(f"You are not ok! Your consuming is {gasolinePerKm} and it is anormal.")
 
     if gasolinePerKm < 10:
         print("Invalid operation! Turning off the program.")

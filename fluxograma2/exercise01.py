@@ -16,7 +16,7 @@ if num1 == num2:
 
 else:
     if num1 > num2:
-        print(f"The higher number is: {num1:.0f} and the smallest is: {num2:.0f}")
+        print(f"The highest number is: {num1:.0f} and the smallest is: {num2:.0f}")
     
     if num2 > num1:
-        print(f"The higher number is: {num2:.0f} and the smallest is: {num1:.0f}")
+        print(f"The highest number is: {num2:.0f} and the smallest is: {num1:.0f}")
