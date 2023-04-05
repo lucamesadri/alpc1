@@ -13,4 +13,4 @@ taxes = (salaryBase / 100) * 7
 
 salary = (salaryBase - taxes) + gratification
 
-print(f"Your new salary will be {salary} reais!")
+print(f"Your new salary will be {salary:.2f} reais!")

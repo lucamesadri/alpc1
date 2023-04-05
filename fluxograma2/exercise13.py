@@ -29,10 +29,16 @@ percFirstCandidateVotes = (firstCandidateVotes * 100) / validVotes
 
 percSecondCandidateVotes = (secondCandidateVotes * 100) / validVotes
 
-percthirdVotes = (thirdCandidateVotes * 100) / validVotes
+percThirdCandidateVotes = (thirdCandidateVotes * 100) / validVotes
 
 percNullVotes = (nullVotes * 100) / totalVotes
 
 percAbstainedVotes = (abstainedVotes * 100) / totalVotes
+
+print("The percentual of votes of each candidate is:")
+print(f"First candidate: {percFirstCandidateVotes:.0f}%")
+print(f"Second candidate: {percSecondCandidateVotes:.0f}%")
+print(f"Third candidate: {percThirdCandidateVotes:.0f}")
+print(f"And the percentual of null votes is {percNullVotes:.0f}% and abstained votes is {percAbstainedVotes:.0f}%")
 
 
