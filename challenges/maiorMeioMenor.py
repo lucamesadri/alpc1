@@ -19,9 +19,9 @@ if num1 > num2:
             print(f"O número do meio é {num3}")
             print(f"O menor número é {num2}")
     else:
-        print("O maior e", num3)
-        print("O do meio e", num1)
-        print("O menor e", num2)
+        print(f"O maior número é {num3}")
+        print(f"O número do meio é {num1}")
+        print(f"O menor número é {num2}")
 
 else:
     if num2 > num1:
@@ -33,6 +33,10 @@ else:
             else:
                 print(f"O número do meio é {num3}")
                 print(f"O menor número é {num1}")
+        else:
+            print(f"O maior número é {num3}")
+            print(f"O número do meio é {num2}")
+            print(f"O menor número é {num1}")
         
     else:
         if num3 > num1:
@@ -44,3 +48,8 @@ else:
                 else:
                     print(f"O número do meio é {num2}")
                     print(f"O menor número é {num1}")
+            else:
+                print(f"O maior número é {num2}")
+                print(f"O número do meio é {num3}")
+                print(f"O menor número é {num1}")
+
