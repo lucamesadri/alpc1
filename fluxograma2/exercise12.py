@@ -13,45 +13,45 @@
 print("Let's calculate the value of your scholarship!")
 
 print("What is your type of course?")
-print("+-------------+")
-print("|1- Ingles    |")
-print("|2- Espanhol  |")
-print("|3- Graduação |")
-print("+-------------+")
+print("+--------------+")
+print("|1- English    |")
+print("|2- Spanish    |")
+print("|3- Graduation |")
+print("+--------------+")
 course = int(input())
 
 # THIS IS UNNCESSARY
 while course < 1 or course > 3:
     print("Invalid number, write the number correspondent to your course!")
-    print("+-------------+")
-    print("|1- Ingles    |")
-    print("|2- Espanhol  |")
-    print("|3- Graduação |")
-    print("+-------------+")
+    print("+--------------+")
+    print("|1- English    |")
+    print("|2- Spanish    |")
+    print("|3- Graduation |")
+    print("+--------------+")
     course = int(input())
 
 print("What is the value of your course")
 courseValue = int(input())
 
 if course == 1:
-    percentage = (courseValue * 40) / 100
-    scholarshipValue = percentage
+    percentageValue = (courseValue * 40) / 100
+    scholarshipValue = percentageValue
 
-    if percentage > 200:
+    if percentageValue > 200:
         scholarshipValue = 200
 else:   
     if course == 2:
-        percentage = (courseValue * 40) / 100
-        scholarshipValue = percentage
+        percentageValue = (courseValue * 40) / 100
+        scholarshipValue = percentageValue
 
-        if percentage > 200:
+        if percentageValue > 200:
             scholarshipValue = 200
     else:
         if course == 3:
-            percentage = (courseValue * 55) / 100
-            scholarshipValue = percentage
+            percentageValue = (courseValue * 55) / 100
+            scholarshipValue = percentageValue
 
-            if percentage > 300:
+            if percentageValue > 300:
                 scholarshipValue = 300
 
 print(f"The value of your scholarship will be {scholarshipValue:.0f} reais")
