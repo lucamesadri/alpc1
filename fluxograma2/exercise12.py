@@ -10,4 +10,55 @@
 #    | Graduação |        55%          |    R$ 300,00    |
 #    +-----------+---------------------+-----------------+
 
+print("Let's calculate the value of your scholarship!")
+
+print("What is your type of course?")
+print("+-------------+")
+print("|1- Ingles    |")
+print("|2- Espanhol  |")
+print("|3- Graduação |")
+print("+-------------+")
+course = int(input())
+
+# THIS IS UNNCESSARY
+while course < 1 or course > 3:
+    print("Invalid number, write the number correspondent to your course!")
+    print("+-------------+")
+    print("|1- Ingles    |")
+    print("|2- Espanhol  |")
+    print("|3- Graduação |")
+    print("+-------------+")
+    course = int(input())
+
+print("What is the value of your course")
+courseValue = int(input())
+
+if course == 1:
+    percentage = (courseValue * 40) / 100
+    scholarshipValue = percentage
+
+    if percentage > 200:
+        scholarshipValue = 200
+else:   
+    if course == 2:
+        percentage = (courseValue * 40) / 100
+        scholarshipValue = percentage
+
+        if percentage > 200:
+            scholarshipValue = 200
+    else:
+        if course == 3:
+            percentage = (courseValue * 55) / 100
+            scholarshipValue = percentage
+
+            if percentage > 300:
+                scholarshipValue = 300
+
+print(f"The value of your scholarship will be {scholarshipValue:.0f} reais")
+
+
+
+
+
+
 
