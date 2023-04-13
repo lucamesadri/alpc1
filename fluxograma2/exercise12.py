@@ -20,7 +20,7 @@ print("|3- Graduation |")
 print("+--------------+")
 course = int(input())
 
-# THIS IS UNNCESSARY
+# THIS IS UNNECESSARY
 while course < 1 or course > 3:
     print("Invalid number, write the number correspondent to your course!")
     print("+--------------+")
