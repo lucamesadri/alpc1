@@ -20,8 +20,3 @@ remainedFood = (foodBagWeight - foodGiven) / 1000
 
 
 print(f"After 5 days, the remained food is {remainedFood} KG")
-
-
-
-
-
