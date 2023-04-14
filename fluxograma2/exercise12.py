@@ -54,7 +54,7 @@ else:
             if percentageValue > 300:
                 scholarshipValue = 300
 
-print(f"The value of your scholarship will be {scholarshipValue:.0f} reais")
+print(f"The value of your scholarship will be {scholarshipValue:.2f} reais")
 
 
 
