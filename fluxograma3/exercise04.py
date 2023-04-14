@@ -17,7 +17,7 @@ choice = int(input())
 
 weight = weight / 1000
 
-# THIS IS UNNECESSARY TOO, YOU COULD SHOW BOTH OF RESULTS, BUT I PREFER THIS WAY SO I CAN TRAIN IF STATEMENTS
+# THIS IS UNNECESSARY TOO, YOU COULD SHOW BOTH RESULTS, BUT I PREFER THIS WAY SO I CAN TRAIN IF STATEMENTS
 if choice == 1:
     gainedWeight = (weight * 15) / 100
     weight = weight + gainedWeight
