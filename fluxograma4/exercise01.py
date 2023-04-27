@@ -23,16 +23,41 @@ print("Lets calculate some things: product's weight, product's price, tax value,
 countryCode = 0
 counter = 0
 
-print("| Origin country code | Tax  |")
-print("|           1         |  0%  |")
-print("|           2	     |  15% |")
-print("|           3	     |  25% |")
+print("| Origin country code |  Tax  |")
+print("|           1         |  0%   |")
+print("|           2	     |  15%  |")
+print("|           3	     |  25%  |")
 
 while countryCode < 1 or countryCode > 3:
-    print("Type ")
+    print("Type the origin country code:")
     countryCode = int(input())
 
     counter = counter + 1
     
     if counter > 7:
         break
+
+while countryCode < 1 or countryCode > 3:
+    print("Type the origin country code:")
+    countryCode = int(input())
+
+    counter = counter + 1
+    
+    if counter > 7:
+        break
+
+print("|Código do produto |	Preço por grama|")
+print("|     1 a 4	      |       10       |")
+print("|     5 a 7	      |       25       |")
+print("|     8 a 10       |       35       |")
+
+while productCode < 1 or productCode > 10:
+    print("Type the product's code:")
+    productCode = int(input())
+
+    counter = counter + 1
+    
+    if counter > 7:
+        break
+
+# if productCode >= 1 and productCode <= 4:

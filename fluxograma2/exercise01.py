@@ -10,9 +10,9 @@ print("Second number: ")
 num2 = int(input())
 
 if num1 == num2:
-    average = (num1 + num2) / 2
+    mean = (num1 + num2) / 2
     
-    print(f"As the numbers are equal, the average is: {average:.0f}")
+    print(f"As the numbers are equal, the mean is: {mean:.0f}")
 
 else:
     if num1 > num2:
