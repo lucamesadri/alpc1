@@ -22,6 +22,7 @@ print("Lets calculate some things: product's weight, product's price, tax value,
 
 countryCode = 0
 counter = 0
+productCode = 0
 
 print("| Origin country code |  Tax  |")
 print("|           1         |  0%   |")

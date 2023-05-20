@@ -13,6 +13,6 @@ if cholesterol <= 130:
     print("You are healthy! Your cholesterol is within the ideal range.")
 
 elif cholesterol > 130:
-    cholesterolPerc = ((cholesterol - 130) / 130) * 100
+    cholesterolPerc = ((cholesterol - 130) * 100) / 130
 
     print(f"Unfortunately, you are unhealthy. Your cholesterol is {cholesterolPerc:.0f}% above the ideal range.") 
